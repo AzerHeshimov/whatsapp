@@ -1,13 +1,45 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+#whatsapp {
+  padding: 80px 0;
 }
-
-a:hover {
-  color: black;
+#whatsapp .chatbox {
+  width: 600px;
+  height: 450px;
+  border-radius: 30px;
+  background-color: #8accfe;
 }
-/*# sourceMappingURL=style.css.map */
+#whatsapp .chatbox .minibox {
+  margin: 22px;
+  width: 560px;
+  height: 340px;
+  border-radius: 20px;
+  background-color: white;
+}
+#whatsapp .chatbox .box input {
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+}
+#whatsapp .chatbox .box .btn {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 15px;
+  width: 60px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+}
+#whatsapp h3 {
+  display: inline-block;
+  word-wrap: break-word;
+  border-radius: 20px;
+  height: auto;
+  max-width: 50%;
+  background-color: #8accfe;
+  padding: 8px 15px;
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */
