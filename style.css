@@ -13,6 +13,7 @@ body {
   background-color: #8accfe;
 }
 #whatsapp .chatbox .minibox {
+  overflow-y: auto;
   margin: 22px;
   width: 560px;
   height: 340px;
@@ -33,7 +34,19 @@ body {
   border-radius: 20px;
   background-color: white;
 }
-#whatsapp h3 {
+#whatsapp .chatbox .start h3 {
+  color: white;
+  display: inline-block;
+  word-wrap: break-word;
+  border-radius: 20px;
+  height: auto;
+  max-width: 50%;
+  background-color: #757777;
+  padding: 8px 15px;
+  margin: 10px;
+}
+#whatsapp .chatbox .end h3 {
+  color: white;
   display: inline-block;
   word-wrap: break-word;
   border-radius: 20px;
