@@ -56,4 +56,40 @@ body {
   background-color: #916bd8;
   padding: 8px 15px;
   margin: 10px;
+}
+
+@media (max-width: 1400px) {
+  .chatbox {
+    max-width: 500px;
+  }
+  .minibox {
+    max-width: 460px;
+  }
+}
+@media (max-width: 1200px) {
+  .chatbox {
+    max-width: 400px;
+  }
+  .minibox {
+    max-width: 360px;
+  }
+}
+@media (max-width: 992px) {
+  .chatbox {
+    max-width: 300px;
+  }
+  .minibox {
+    max-width: 260px;
+  }
+}
+@media (max-width: 768px) {
+  .col-md-6 {
+    padding-bottom: 20px;
+  }
+  .chatbox {
+    max-width: 400px;
+  }
+  .minibox {
+    max-width: 360px;
+  }
 }/*# sourceMappingURL=style.css.map */
